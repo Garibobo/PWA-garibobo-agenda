@@ -1,8 +1,8 @@
 {
     "name": "Garibobo Agenda",
     "short_name": "Garibobo",
-    "start_url": "/",
-    "scope": "/",
+    "start_url": "./",
+    "scope": "./",
     "display": "standalone",
     "display_override": ["standalone", "fullscreen", "minimal-ui"],
     "background_color": "#0175C2",
@@ -51,14 +51,14 @@
             "name": "Agenda",
             "short_name": "Agenda",
             "description": "Accéder directement à l'agenda",
-            "url": "/?page=agenda",
+            "url": "./?page=agenda",
             "icons": [{ "src": "icons/Icon-192.png", "sizes": "192x192" }]
         },
         {
             "name": "Notes",
             "short_name": "Notes",
             "description": "Accéder directement aux notes",
-            "url": "/?page=notes",
+            "url": "./?page=notes",
             "icons": [{ "src": "icons/Icon-192.png", "sizes": "192x192" }]
         }
     ],
