@@ -11,13 +11,16 @@
   const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
   const isAndroid = /Android/.test(navigator.userAgent);
   const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  const isSamsungInternet = /SamsungBrowser/.test(navigator.userAgent);
   const isStandalone = window.matchMedia('(display-mode: standalone)').matches || 
-                       window.navigator.standalone === true;
+                       window.navigator.standalone === true ||
+                       window.matchMedia('(display-mode: minimal-ui)').matches;
 
   console.log('[PWA] Détection navigateur:', {
     isIOS,
     isAndroid,
     isSafari,
+    isSamsungInternet,
     isStandalone
   });
 

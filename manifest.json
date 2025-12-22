@@ -4,15 +4,19 @@
     "start_url": "./",
     "scope": "./",
     "display": "standalone",
-    "display_override": ["standalone", "fullscreen", "minimal-ui"],
+    "display_override": ["standalone", "minimal-ui", "browser"],
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
+    "theme_color_dark": "#0155A0",
     "description": "Application agenda pour élèves du domaine 3 - Électricité en apprentissage en Suisse",
-    "orientation": "portrait-primary",
+    "orientation": "any",
     "prefer_related_applications": false,
     "categories": ["education", "productivity"],
     "lang": "fr-CH",
     "dir": "ltr",
+    "edge_side_panel": {
+        "preferred_width": 480
+    },
     "screenshots": [],
     "icons": [
         {
