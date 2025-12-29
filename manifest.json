@@ -1,6 +1,6 @@
 {
     "name": "Garibobo Agenda",
-    "short_name": "Garibobo",
+    "short_name": "Garibobo Agenda",
     "start_url": "./",
     "scope": "./",
     "display": "standalone",
