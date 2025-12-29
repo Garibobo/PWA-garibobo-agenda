@@ -1,0 +1,71 @@
+{
+    "name": "Garibobo Agenda",
+    "short_name": "Garibobo Agenda",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "display_override": ["standalone", "minimal-ui", "browser"],
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "theme_color_dark": "#0155A0",
+    "description": "Application agenda pour élèves du domaine 3 - Électricité en apprentissage en Suisse",
+    "orientation": "any",
+    "prefer_related_applications": false,
+    "categories": ["education", "productivity"],
+    "lang": "fr-CH",
+    "dir": "ltr",
+    "edge_side_panel": {
+        "preferred_width": 480
+    },
+    "screenshots": [],
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Agenda",
+            "short_name": "Agenda",
+            "description": "Accéder directement à l'agenda",
+            "url": "./?page=agenda",
+            "icons": [{ "src": "icons/Icon-192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Notes",
+            "short_name": "Notes",
+            "description": "Accéder directement aux notes",
+            "url": "./?page=notes",
+            "icons": [{ "src": "icons/Icon-192.png", "sizes": "192x192" }]
+        }
+    ],
+    "related_applications": [],
+    "iarc_rating_id": ""
+}
